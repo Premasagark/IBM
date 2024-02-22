@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Shopping Mall</title>
+</head>
+
+<body style="font-family: 'Protest Riot', sans-serif; ">
+
+    <div style="margin-top: 10px; margin-bottom: 20px; justify-content: center;display: flex;">
+        <div class="card" style="width: 32%;">
+            <img src="https://img.freepik.com/free-photo/winter-festive-background-with-burning-candle-home-decor-details-blurred-background-with-bokeh_169016-13848.jpg?size=626&ext=jpg&ga=GA1.1.776917126.1707548042&semt=sph"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <p><b style="font-size: 40px;">Sparta Candles </b> Price:<b>$3 each</b></p>
+                <div>These candles actually have special power!</div>
+                <br>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Your Name</span>
+                    <input required type="text" id="name" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Quantity</span>
+                    <input required type="number" placeholder="-- Please select Quantity --" class="form-control"
+                        id="phonenumber" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Address</span>
+                    <input required type="text" class="form-control" id="address" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Phone number</span>
+                    <input required type="number" class="form-control" id="phonenumber"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <button type="submit" class="btn btn-primary" onclick="action()">Order</button>
+
+<!--kiran kk-->
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <script>
+        console.log('%c%s', 'color:#FFC0CB;', 'Go to this website demo.com');
+        
+        function action() {
+            alert("Your order is placed successfully.")
+            
+        }
+
+    </script>
+</body>
+
+</html>
